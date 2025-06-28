@@ -1,19 +1,18 @@
-# ATM_System
+# ATM System
 
-This is a simple ATM simulation program written in C++. It allows a single user to interact with their account using a command-line interface. The system supports common banking operations like deposits, withdrawals, balance inquiries, and transaction history tracking.
+This is a basic ATM simulation program written in C++. It allows a single user to interact with their bank account using a text-based menu. The program supports features like balance inquiry, deposits, withdrawals, and viewing transaction history.
 
-# Features
+## Features
 
--  Simulated user account with name, number, and email
--  PIN verification before access
--  Deposit and withdrawal functionality
--  Live transaction history using a singly linked list
--  Timestamped records of every transaction
--  Clean console output with menu-driven interface
+- PIN verification
+- Account information display
+- Deposit and withdraw money
+- Transaction history with timestamps
+- Simple menu-driven interface
 
+## Concepts Used
 
-# Technologies Used
-
-- **C++** (OOP concepts: inheritance, constructors/destructors)
-- **Visual Studio** (or any standard C++ compiler)
-- **Standard Library**: `iostream`, `ctime`, `string`
+- Object-oriented programming (classes, inheritance)
+- Singly linked list for storing transaction history
+- Dynamic memory management
+- Standard C++ libraries (`iostream`, `ctime`, `string`)
